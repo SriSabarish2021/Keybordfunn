@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+    user-select: none;
+}
+body{
+    height: 100%;
+    background: url('image1_0.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container1 .box{
+    height: 70px;
+    width: 80px;
+    background-color: rgb(219, 111, 233);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.container2 .box{
+    height: 70px;
+    width: 80px;
+    background-color: rgb(96, 230, 147);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.container3 .box{
+    height: 70px;
+    width: 80px;
+    background-color: rgb(149, 211, 68);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.box.changes{
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    height: 75px;
+    width: 85px;
+}
+.space.changes{
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 219, 14), 0 0 5px rgb(236, 218, 11);
+    height: 65px;
+    width: 450px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.space{
+    height: 60px;
+    width: 400px;
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
